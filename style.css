@@ -54,11 +54,26 @@ nav .logo{
     position: relative;
     top: 120px;
   }
-
   .title, p{
     text-align: center;
   }
-   
+  
+  .paypal2{
+    position: relative;
+    top: 70px;
+  }
+
+  .video iframe{
+    width:560px; 
+    height: 315px;
+    margin: 0px 25%;
+  }
+
+  .figure-caption{
+    text-align: center;
+    margin-left: 310px;
+  }
+ 
   /* price */
 
   #part3{
@@ -126,7 +141,7 @@ nav .logo{
 
 #sentmoney{
   position: relative;
-  top: 240px;
+  top: 290px;
 }
 
 #sentmoney .title2 h5{
@@ -151,7 +166,7 @@ ul {
 .footer-section {
 background: #f1f5f9;
 position: relative;
-top: 280px;
+top: 330px;
 }
 .footer-cta {
 border-bottom: 1px solid #373636;
@@ -216,8 +231,20 @@ color: #878787;
     position: relative;
     left: 0px;
   }
-
-   
+  .video iframe{
+    width:560px; 
+    height: 315px;
+    margin: 0px 32%;
+  }
+  .figure-caption{
+    text-align: center;
+    position: relative;
+    left: 130px;
+  }
+  .paypal2 .text p{
+    position: relative;
+    left: 55px;
+  }
 }
 
 /* smartphone resolution */
@@ -234,7 +261,7 @@ color: #878787;
 
  #part2 .transfert img{
    position: relative;
-   top: 180px;
+   top: 200px;
  }
 
  #part2 .title h3{
@@ -249,9 +276,23 @@ color: #878787;
 
  .image img{
   height: 300px;
-  margin: 15px; 
-}
+  margin: 15px;
+ }
 
+ .video{
+   margin-right: 60px;
+ }
+ .video iframe{
+  width:200px; 
+  height: 180px;
+}
+.figure-caption{
+display: none;
+}
+.paypal2 .text p{
+  position: relative;
+  left: 0px;
+}
 .single-cta{
   padding: 30px 0 ;
 }
