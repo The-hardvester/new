@@ -279,12 +279,18 @@ color: #878787;
   margin: 15px;
  }
 
+ .paypal2 .text{
+   margin-top: 10px;
+ }
+
  .video{
-   margin-right: 60px;
+   margin-right: 48px;
  }
  .video iframe{
   width:200px; 
   height: 180px;
+  position: relative;
+  top: 15px;
 }
 .figure-caption{
 display: none;
