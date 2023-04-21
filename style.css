@@ -29,8 +29,31 @@ nav .logo{
 
 .carousel-inner .carousel-item img {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url("hero.jpg");
+  }  
+
+  .image-2{
+    position: relative;
+    bottom: 200px;
   }
 
+  #sentmoney .title{
+    position: relative;
+    bottom: 190px;
+  }
+  #sentmoney img{
+    position: relative;
+    bottom: 140px;
+  }
+
+  
+  /* List group*/
+
+.xv{
+  margin-left: 95px;
+}
+.xj{
+  margin-left: 115px;
+}
   /* intro */
 
   .intro{
@@ -152,6 +175,8 @@ nav .logo{
 .image img{
   margin: 30px 0px 0px 400px;
   height: 500px;
+  position: relative;
+  top: 15px;
 }
 
 .image-2 img{
@@ -169,6 +194,8 @@ nav .logo{
 
 .descri img{
   height: 28px;
+  position: relative;
+  top: 0;
 }
 
 
@@ -295,6 +322,10 @@ color: #878787;
     position: relative;
     left: 130px;
   }
+  .image-2{
+    position: relative;
+    bottom: 0px;
+  }
   .paypal2 .text p{
     position: relative;
     left: 55px;
@@ -306,6 +337,10 @@ color: #878787;
   #sentmoney .title{
     position: relative;
     bottom: 135px;
+  }
+  /*List group*/
+  .xz{
+    margin-left: 220px;
   }
 }
 
@@ -334,6 +369,21 @@ color: #878787;
  #part2 .text p{
    position: relative;
    bottom: 180px;
+ }
+
+ .image-2{
+  position: relative;
+  bottom: 0px;
+}
+
+.image-2 .carousel-item img{
+  height: 420px;
+}
+
+ /*List group*/
+
+ .xv, .xj{
+ margin-left: 0px;
  }
 
  .image img{
@@ -391,6 +441,14 @@ display: none;
 
 .descri img{
   height: 28px;
+}
+#sentmoney .title{
+  position: relative;
+  bottom: 0px;
+}
+.image img{
+  position: relative;
+  bottom: 0px;
 }
 
 .carousel-control-prev, .carousel-control-prev{
